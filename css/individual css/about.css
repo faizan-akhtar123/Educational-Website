@@ -1,0 +1,41 @@
+/* About css */
+
+#container1{
+    background-image: url(../images/eduford_img/background.jpg);
+    background-position: center;
+    background-size: cover;
+    height: 290px;
+}
+#about_us{
+color: white;
+position: absolute;
+top: 0;
+left: 47%;
+transform: translateY(92px);
+}
+#largest{
+    display: grid;
+    grid-template-columns: 50% 50%;
+}
+#university{
+    padding-top: 10%;
+}
+#university h1{
+    margin-top: 1%;
+    font-size: 36px;
+}
+#university p{
+    font-size: 18px;
+    color: gray;
+}
+#university-image img{
+    width: 97%;
+    padding-top: 10%;
+}
+#heart{
+    text-align: center;
+}
+.fa-heart{
+    color: red;
+    font-size: 18px;
+}

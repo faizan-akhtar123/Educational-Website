@@ -1,0 +1,640 @@
+/* CSS */
+/* Author Faizan Akhtar */
+/* *{
+    border:1px solid red;
+} */
+
+
+@font-face{
+    font-family: Roboto-Bold;
+    src: url(../fonts/roboto/Roboto-Bold.ttf);
+}
+
+h1,h2,h3,h4,h5,h6{
+    font-family: Roboto-Bold;
+}
+
+@font-face {
+    font-family: Roboto-Regular;
+    src: url(../fonts/roboto/Roboto-Regular.ttf);
+}
+*{
+    font-family: Roboto-Regular;
+    
+}
+body{
+    margin: 0;
+    padding: 0;
+}
+/*  */
+header{
+    display: grid;
+    grid-template-columns: 57% 43%;
+    background-color: red;
+
+}
+#mobile-cross {
+    display: none;
+}
+#mobile-button{
+    display: none;
+}
+#menuBar ul{
+    display: grid;
+    grid-template-columns: auto auto auto auto auto;
+    margin: 0;
+    padding-left: 0;
+    padding-top: 4%;
+    
+}
+#logoimage img{
+    width: 150px;
+    margin-top: 2%;
+    
+}
+#menuBar ul li{
+    list-style-type: none;
+    text-decoration: none;
+    margin-right: 7px;
+
+}
+#menuBar ul li a {
+    color: white;
+    text-decoration: none;
+}
+.unipadding{
+    padding: 0 2%;
+
+}
+
+#container{
+    background-image: url(../images/eduford_img/banner.png), linear-gradient(rgba(4,9,30,0.7),rgba(4,9,30,0.7));
+    background-position: center;
+    background-size: cover;
+    min-height: 100vh;
+    /*width: 100%;*/
+    width: 96%;
+    
+}
+
+#menuBar ul li {
+    list-style-type: none;
+
+    
+    
+}
+#menuBar ul li:hover {
+    /* content: '';
+    width: 0%;
+    height: 2px;
+    background: #f44336;
+    display: block;
+    margin: auto;
+    transition: 0.5s; */
+    text-decoration: underline;
+    text-underline-offset: 27%;
+    text-decoration-thickness: 16%;
+    transition-duration: 0.5s;
+    
+    
+
+}
+
+#menuBar ul li a{
+    text-decoration: none;
+    color: white;
+    font-size: 13px;
+}
+/* .mobilemenu{
+    display: none;
+} */
+#biggest{
+    width: 90%;
+    color: #fff;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+    text-align: center;
+}
+#biggest h1{
+    font-size: 62px;
+    color: white;
+    margin-bottom: 1%;
+}
+
+#biggest p{
+    text-align: center;
+    color: white;
+    font-size: 14px;
+    margin: 10px 0 40px;
+    
+    
+}
+button{
+    margin-top: 1%;
+    padding: 10px;
+    margin-right: 6%;
+    margin-bottom: 1%;
+    border: 1px solid #fff;
+    font-size: 13px;
+    background: transparent;
+    color: #fff;
+    cursor: pointer;
+}
+button:hover{
+    border: 1px solid #f44336;
+    background-color: #f44336;
+    transition: 1s;
+}
+/*header ends here*/
+/*courses we offer */
+
+#courses{
+    text-align: center;
+}
+
+#courses h1{
+    font-size: 34px;
+    margin-bottom: 0;
+
+}
+#newblank{
+    display: grid;
+    grid-template-columns: 5% 90% 5%;
+}
+#typeofcourses{
+    display: grid;
+    grid-template-columns: auto auto auto;
+    
+}
+#intermediate, #degree, #postgraduation{
+    background: #fff3f3;
+    border-radius: 10px;
+    margin-bottom: 5%;
+    transition: 0.5s;
+}
+#intermediate h3, #degree h3, #postgraduation h3{
+    text-align: center;
+    margin-top: 3%;
+}
+#intermediate:hover, #degree:hover, #postgraduation:hover{
+    box-shadow: 0 0 20px 0px rgba(0,0,0,0.2);
+}
+
+#intermediate{
+    position: relative;
+    right: 18%;
+}
+#postgraduation{
+    position: relative;
+    left: 18%;
+}
+/*courses we offer*/
+/* our global campus */
+#global{
+    text-align: center;
+}
+#campus h1{
+    font-size: 34px;
+    margin-bottom: 13px;
+}
+#campus p{
+    margin-top: 0;
+}
+
+#campuslocation{
+    display: grid;
+    grid-template-columns: auto auto auto;
+}
+#london img, #newyork img, #washington img{
+    width: 97%;
+}
+/* our facilities*/
+#ourfacilities{
+    margin: auto;
+}
+#our_facilities h1{
+    text-align: center;
+    font-size: 34px;
+}
+#our_facilities p{
+    text-align: center;
+}
+#typesoffacilities{
+    display: grid;
+    grid-template-columns: auto auto auto;
+}
+#library img, #playground img, #cafetaria img{
+    width: 97%;
+    border-radius: 10px;
+}
+/* testimonial*/
+#studentsays{
+    text-align: center;
+}
+#studentsays h1{
+    font-size: 32px;
+    margin-bottom: 0px;
+}
+#christina{
+    display: grid;
+    grid-template-columns: 50% 50%;
+    padding-top: 17px;
+}
+#christinaicon{
+    background: #fff3f3;
+    margin-right: 5%;
+}
+#davidicon{
+    background: #fff3f3;
+    margin-right: 5%;
+}
+#christinaicon, #davidicon{
+    display: grid;
+    grid-template-columns: 20% 80%;
+}
+#christinaimage img, #davidimage img{
+    width: 63%;
+    border-radius: 50%;
+    margin-left: 5px;
+    margin-right: 30px;
+}
+#christinatalk p, #Davidtalk p{
+    margin: 0;
+    padding-top: 10px;
+}
+#christinatalk h3, #Davidtalk h3{
+    margin-bottom: 0;
+}
+.rating-icons{
+    color: #f44336
+}
+
+/*Enroll*/
+#enroll{
+    background-image: url(../images/eduford_img/banner2.jpg);
+    background-position: center;
+    background-size: cover;
+    height: 316px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    color: white;
+    font-size: 24px;
+    margin: 4% 8%;
+    border-radius: 2%;
+}
+#enroll h1{
+    text-align: center;
+    margin: -26px;
+}
+/*about us */
+#aboutus{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    padding-top: 15px;
+}
+#aboutus p{
+    text-align: center;
+}
+#socialicons{
+    display: flex;
+    align-items: center;
+    flex-direction: row;
+    justify-content: center;
+    
+}
+.fa-facebook-f, .fa-twitter, .fa-instagram, .fa-linkedin-in{
+    margin-right: 1%;
+    color: red;
+    font-size: 18px;
+}
+#heart{
+    text-align: center;
+}
+.fa-heart{
+    color: red;
+    font-size: 18px;
+}
+/* ABOUT CSS */
+#container1{
+    background-image: url(../images/eduford_img/background.jpg);
+    background-position: center;
+    background-size: cover;
+    height: 290px;
+    width: 96%;
+}
+#about_us{
+color: white;
+position: absolute;
+top: 0;
+left: 47%;
+transform: translateY(92px);
+}
+#largest{
+    display: grid;
+    grid-template-columns: 50% 50%;
+}
+#university{
+    padding-top: 10%;
+}
+#university h1{
+    margin-top: 1%;
+    font-size: 36px;
+}
+#university p{
+    font-size: 18px;
+    color: gray;
+}
+#university-image img{
+    width: 97%;
+    padding-top: 10%;
+}
+#heart{
+    text-align: center;
+}
+.fa-heart{
+    color: red;
+    font-size: 18px;
+}
+/* blog section */
+
+#blog{
+    display: grid;
+    grid-template-columns: 60% 40%;
+    padding-top: 10%;
+}
+#studentpic img{
+    width: 97%;
+}
+#redheading{
+    background-color: red;
+    color: white;
+    text-align: center;
+}
+#postcateg{
+    padding-right: 19%;
+}
+#buissnessanalytic, #datascience, #machinelearning, #computerscience, #autocad, #journalism, #commerce{
+    display: grid;
+    grid-template-columns: 50% 50%;
+}
+
+#buissnessanalytic p:last-child, #datascience p:last-child, #machinelearning p:last-child, #computerscience p:last-child, #autocad p:last-child, #journalism p:last-child, #commerce p:last-child{
+    text-align: right;
+}
+#certificate-content p:nth-of-type(odd),#certificate-content p:nth-of-type(even){
+    padding-right: 39%;
+}
+/*leave a comment*/
+#leave{
+    margin-right: 41%;
+    margin-left: 2%;
+    border: 1px solid;
+    box-shadow: 10px 10px 10px 5px white;
+}
+#entername, #email{
+    padding-bottom: 3%;
+}
+#entername input[type="text"], #email input[type="email"]{
+    width: 98%;
+    height: 25px;
+}
+#yourcomment input[type="text"]{
+    width: 98%;
+    height: 50px;
+}
+/* blog section */
+
+#blog{
+    display: grid;
+    grid-template-columns: 60% 40%;
+    padding-top: 10%;
+}
+#studentpic img{
+    width: 97%;
+}
+#redheading{
+    background-color: red;
+    color: white;
+    text-align: center;
+}
+#postcateg{
+    padding-right: 19%;
+}
+#buissnessanalytic, #datascience, #machinelearning, #computerscience, #autocad, #journalism, #commerce{
+    display: grid;
+    grid-template-columns: 50% 50%;
+}
+
+#buissnessanalytic p:last-child, #datascience p:last-child, #machinelearning p:last-child, #computerscience p:last-child, #autocad p:last-child, #journalism p:last-child, #commerce p:last-child{
+    text-align: right;
+}
+#certificate-content p:nth-of-type(odd),#certificate-content p:nth-of-type(even){
+    padding-right: 39%;
+}
+/*leave a comment*/
+#leave{
+    margin-right: 41%;
+    margin-left: 2%;
+    border: 1px solid;
+    box-shadow: 10px 10px 10px 5px white;
+}
+#entername, #email{
+    padding-bottom: 3%;
+}
+#entername input[type="text"], #email input[type="email"]{
+    width: 98%;
+    height: 25px;
+}
+#yourcomment input[type="text"]{
+    width: 98%;
+    height: 50px;
+}
+/* CONTACT-SECTION CSS */
+/* google maps*/
+#googlemap{
+    text-align: center;
+    margin-top: 10%;
+    padding: 10px;
+}
+#gmap{
+    width: 100%;
+}
+/*xyz abc build */
+#abcbuild{
+    display: grid;
+    grid-template-columns: 50% 50%;
+}
+#locationadd{
+    margin-top: 10%;
+}
+#location p:first-child, #mailid p:first-child{
+    margin: 0;
+    font-weight: bold;
+}
+#location p:last-child, #phonenumber p, #mailid p:last-child{
+    margin: 4px;
+    padding-left: 29px;
+    color: gray;
+}
+#mailid{
+    padding-top: 5%;
+}
+#phonenumber{
+    padding-top: 3%;
+}
+
+.fa-house-chimney,.fa-phone,.fa-envelope{
+    color: red;
+}
+#phonenumber h1{
+    margin-bottom: 0;
+}
+
+#form-filling{
+    padding-top: 9%;
+}
+#entername_1, #email_1, #entersubject{
+    padding-bottom: 22px;
+}
+#entername_1 input[type="text"], #email_1 input[type="email"], #entersubject input[type="text"]{
+    width: 93%;
+    height: 25px;
+}
+#message input[type="text"]{
+    width: 93%;
+    height: 100px;
+}
+/* Responsive CSS */
+
+/* Responsive header */
+/* responsive mobile button */
+@media only screen and (max-width:500px){
+    header{
+        grid-template-columns: 50% 40% 10%;
+        width: 100%;
+    }
+    #mobile-button{
+        display:block;
+        color: white;
+        font-size: 30px;
+        padding-top: 4px;
+        text-align: right;
+    }
+    #mobile-cross{
+        display: block;
+      
+
+    }
+    #menuBar ul{
+        display: block;
+    }
+    #menuBar{
+    
+        width: 200px;
+        height: 73vh;
+        position: absolute;
+        top: 0;
+        right: 0;
+        background-color: green;
+        transition: 1s;
+        z-index: 2;
+    }
+    #menuBar ul li{
+        padding: 23px 0;
+        border-bottom: 1px solid yellow;
+        padding-left: 30px;
+    }
+    #mobile-cross{
+        text-align: right;
+        font-size: 23px;
+        color: white;
+    }
+   
+    #biggest h1{
+        font-size: 23px;
+    }
+    /* courses we offer */
+    #courses h1{
+        padding-top: 7px;
+    }
+    #typeofcourses{
+        display: inline;
+    }
+    #intermediate{
+        position: static;
+    }
+    #degree{
+        margin: 0 1%;
+    }
+    #postgraduation{
+        margin: 0 3%;
+        position: static;
+    }
+    /* campus location */
+    #campuslocation{
+        display: block;
+    }
+    /* facilities */
+    #typesoffacilities{
+        display: block;
+    }
+    /* testimonials */
+    #christina{
+        display: block;
+    }
+    #Davidicon{
+        margin-top: 5%;
+    }
+    /* enroll */
+    #enroll{
+        height: 438px;
+        margin: 4% 8%;
+    }
+    #enroll h1{
+        font-size: 23px;
+    }
+    /* footer */
+    #aboutus h3{
+        margin-bottom: 0;
+    }
+    #aboutus p{
+        margin-right: 3%;
+        margin-bottom: 4px;
+    }
+    /* resonsive about section */
+    #largest{
+        display: block;
+    }
+    #university h1{
+        font-size: 28px;
+    }
+    /* responsive blog section */
+    #blog{
+        display: block;
+    }
+    #certificate-content p:nth-of-type(odd),#certificate-content p:nth-of-type(even){
+        padding-right: 0;
+    }
+    #leave{
+        margin-right: 3%;
+    }
+    #entername_1 input[type="text"], #email_1 input[type="email"], #entersubject input[type="text"] {
+        width: 81%
+
+    }
+    #message input[type="text"] {
+        width: 81%;
+    }
+    #abcbuild{
+        display: block;
+    }
+    
+
+
+}

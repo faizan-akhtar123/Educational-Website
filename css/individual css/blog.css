@@ -1,0 +1,47 @@
+/* blog section */
+
+#blog{
+    display: grid;
+    grid-template-columns: 60% 40%;
+    padding-top: 10%;
+}
+#studentpic img{
+    width: 97%;
+}
+#redheading{
+    background-color: red;
+    color: white;
+    text-align: center;
+}
+#postcateg{
+    padding-right: 19%;
+}
+#buissnessanalytic, #datascience, #machinelearning, #computerscience, #autocad, #journalism, #commerce{
+    display: grid;
+    grid-template-columns: 50% 50%;
+}
+
+#buissnessanalytic p:last-child, #datascience p:last-child, #machinelearning p:last-child, #computerscience p:last-child, #autocad p:last-child, #journalism p:last-child, #commerce p:last-child{
+    text-align: right;
+}
+#certificate-content p:nth-of-type(odd),#certificate-content p:nth-of-type(even){
+    padding-right: 39%;
+}
+/*leave a comment*/
+#leave{
+    margin-right: 41%;
+    margin-left: 2%;
+    border: 1px solid;
+    box-shadow: 10px 10px 10px 5px white;
+}
+#entername, #email{
+    padding-bottom: 3%;
+}
+#entername input[type="text"], #email input[type="email"]{
+    width: 98%;
+    height: 25px;
+}
+#yourcomment input[type="text"]{
+    width: 98%;
+    height: 50px;
+}

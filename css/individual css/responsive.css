@@ -1,0 +1,93 @@
+/* Responsive CSS */
+
+/* Responsive header */
+/* responsive mobile button */
+@media only screen and (max-width:500px){
+    header{
+        grid-template-columns: 50% 40% 10%;
+        width: 100%;
+    }
+    #mobile-button{
+        display:block;
+        color: white;
+        font-size: 30px;
+        padding-top: 18px;
+    }
+    #mobile-cross{
+        display: block;
+      
+
+    }
+    #menuBar ul{
+        display: block;
+        width: 200px;
+        height: 100vh;
+        position: absolute;
+        top: 0;
+        left: -200px;
+        background-color: green;
+        transition: 1s;
+    }
+    #menuBar ul li{
+        padding: 23px 0;
+        border-bottom: 1px solid yellow;
+        padding-left: 30px;
+    }
+    #mobile-cross{
+        text-align: right;
+        font-size: 23px;
+        color: white;
+    }
+   
+    #biggest h1{
+        font-size: 23px;
+    }
+    /* courses we offer */
+    #courses h1{
+        padding-top: 7px;
+    }
+    #typeofcourses{
+        display: inline;
+    }
+    #intermediate{
+        position: static;
+    }
+    #degree{
+        margin: 0 1%;
+    }
+    #postgraduation{
+        margin: 0 3%;
+        position: static;
+    }
+    /* campus location */
+    #campuslocation{
+        display: block;
+    }
+    /* facilities */
+    #typesoffacilities{
+        display: block;
+    }
+    /* testimonials */
+    #christina{
+        display: block;
+    }
+    #Davidicon{
+        margin-top: 5%;
+    }
+    /* enroll */
+    #enroll{
+        height: 438px;
+        margin: 4% 8%;
+    }
+    #enroll h1{
+        font-size: 23px;
+    }
+    /* footer */
+    #aboutus h3{
+        margin-bottom: 0;
+    }
+    #aboutus p{
+        margin-right: 3%;
+        margin-bottom: 4px;
+    }
+}

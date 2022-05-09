@@ -1,0 +1,51 @@
+/* CONTACT-SECTION CSS */
+/* google maps*/
+#googlemap{
+    text-align: center;
+    margin-top: 10%;
+}
+/*xyz abc build */
+#abcbuild{
+    display: grid;
+    grid-template-columns: 50% 50%;
+}
+#locationadd{
+    margin-top: 10%;
+}
+#location p:first-child, #mailid p:first-child{
+    margin: 0;
+    font-weight: bold;
+}
+#location p:last-child, #phonenumber p, #mailid p:last-child{
+    margin: 4px;
+    padding-left: 29px;
+    color: gray;
+}
+#mailid{
+    padding-top: 5%;
+}
+#phonenumber{
+    padding-top: 3%;
+}
+
+.fa-house-chimney,.fa-phone,.fa-envelope{
+    color: red;
+}
+#phonenumber h1{
+    margin-bottom: 0;
+}
+
+#form-filling{
+    padding-top: 9%;
+}
+#entername_1, #email_1, #entersubject{
+    padding-bottom: 22px;
+}
+#entername_1 input[type="text"], #email_1 input[type="email"], #entersubject input[type="text"]{
+    width: 93%;
+    height: 25px;
+}
+#message input[type="text"]{
+    width: 93%;
+    height: 100px;
+}
